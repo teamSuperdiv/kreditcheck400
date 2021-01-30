@@ -1,0 +1,108 @@
+/* Custom style.css file */
+
+.baufilead_zinstableau {
+  width: 100%;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+.section-padding2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-wrapper {
+  line-height: 2.5;
+}
+
+#footer-logo {
+  width: 400px;
+  padding-left: 14px;
+}
+
+.google-maps {
+  padding-top: 50px;
+}
+
+.img-info {
+  padding-bottom: 25px;
+}
+
+.copyright {
+  padding-top: 18px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+/* new logo and custom properties for mobile */
+
+.single-cat.text-center.mb-50 {
+  height: 360px;
+}
+
+@media (max-width: 767px) {
+  .img-fluid {
+    max-width: 65%;
+  }
+  body {
+    text-align: center;
+  }
+  .baufilead_zinstableau {
+    width: 93%;
+  }
+  .footer-area .footer-social {
+    float: inherit;
+  }
+  .footer-area .footer-logo {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .img-fluid {
+    max-width: 270%;
+  }
+  .baufilead_zinstableau {
+    width: 90%;
+  }
+  .slider-footer .footer-wrapper .single-caption .caption-icon span {
+    font-size: 50px;
+  }
+  .slider-footer .footer-wrapper .single-caption .caption p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+    font-size: 30px;
+  }  
+}
+
+@media (min-width: 1000px) and (max-width: 1600px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-fluid {
+    max-width: 160%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .img-fluid {
+    max-width: 110%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .img-fluid {
+    max-width: 80%;
+  }
+}
